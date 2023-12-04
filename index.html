@@ -1,14 +1,379 @@
-<html>
-    <head>
-        <title>MyceniaCraft</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="newcss.css" rel="stylesheet" type="text/css"/>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    </head>
-    <body>
 
-        <a href="https://www.youtube.com/watch?v=fYjHz95ElS4"><iconify-icon icon="dashicons:html"></iconify-icon></a>
-      
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Page 1 description">
+    <meta name="theme-color" content="#fdb800">
+    <meta name="author" content="Azuriom">
+        <meta property="og:title" content="Page 1">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://demo.azuriom.com/page-1">
+    <meta property="og:image" content="https://demo.azuriom.com/storage/img/logo.png">
+    <meta property="og:description" content="The Page 1 description">
+    <meta property="og:site_name" content="Azuriom">
+        <meta name="keywords" content="azuriom, minecraft, cms, free, open source, laravel">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="hRhjuKgFH2qFSAA1bUTWwzLVrvybXL8OyWpLTgwi">
+
+    <title>Page 1 | Azuriom</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://demo.azuriom.com/storage/img/logo.png">
+
+    <!-- Scripts -->
+    <script src="https://demo.azuriom.com/assets/vendor/bootstrap/js/bootstrap.bundle.min.js?v1.1.2" defer></script>
+    <script src="https://demo.azuriom.com/assets/vendor/axios/axios.min.js?v1.1.2" defer></script>
+    <script src="https://demo.azuriom.com/assets/js/script.js?v1.1.2" defer></script>
+    <script src="https://demo.azuriom.com/assets/themes/pirate/js/particles.min.js?v1.1.2" defer></script>
+    <script src="https://demo.azuriom.com/assets/themes/pirate/js/particles-init.js?v1.1.2" defer></script>
+    <script src="https://demo.azuriom.com/assets/themes/pirate/js/clipboard.js?v1.1.2" defer></script>
+
+    <!-- Page level scripts -->
+    <style>
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .azuriom-theme-selector {
+        position: fixed;
+        top: 0;
+        right: 15px;
+        z-index: 9999999999;
+        background: #fff;
+        box-shadow: grey 0 0 5px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    #dropdownMenuButton {
+        Text-decoration: none;
+    }
+
+    .azuriom-theme-selector .dropdown-toggle::before {
+        display: none!important;
+    }
+
+    .azuriom-theme-selector svg {
+        vertical-align: -.125em;
+        display: inline-block;
+        height: 1em;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js" defer></script>
+<script src="https://demo.azuriom.com/assets/plugins/demo/js/demo.js?v1.0" defer></script>
+    <!-- Fonts -->
+    <link href="https://fonts.bunny.net/css?family=Raleway:300,400,600,800&display=swap" rel="stylesheet">
+    <link href="https://demo.azuriom.com/assets/vendor/bootstrap-icons/bootstrap-icons.css?v1.1.2" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="https://demo.azuriom.com/assets/vendor/bootstrap/css/bootstrap.min.css?v1.1.2" rel="stylesheet">
+    <link href="https://demo.azuriom.com/assets/css/base.css?v1.1.2" rel="stylesheet">
+    <link href="https://demo.azuriom.com/assets/themes/pirate/css/style.css?v1.1.2" rel="stylesheet">
+        <style>
+    :root,
+    [data-bs-theme=light] {
+        --bs-primary: #fdb800;
+        --bs-primary-rgb: 253, 184, 0;
+        --bs-primary-text-emphasis: #654a00;
+        --bs-primary-bg-subtle: #fff1cc;
+        --bs-primary-border-subtle: #fee399;
+        --bs-link-hover-color: #ca9300;
+        --bs-link-hover-color-rgb: 202, 147, 0;
+
+        --bs-primary-color-contrast: #000;
+        --bs-btn-primary-hover-bg: #d79c00;
+        --bs-btn-primary-active-bg: #d79c00;
+        --bs-btn-primary-focus-shadow-rgb: 215, 156, 0;
+    }
+
+    [data-bs-theme=dark] {
+        --bs-primary-text-emphasis: #986e00;
+        --bs-primary-bg-subtle: #332500;
+        --bs-primary-border-subtle: #fed466;
+
+        --bs-link-color: #fed466;
+        --bs-link-hover-color: #fdc633;
+        --bs-link-color-rgb: 254, 212, 102;
+        --bs-link-hover-color-rgb: 253, 198, 51;
+    }
+</style>
+    <style>
+        :root {
+            --background-url: url('https://demo.azuriom.com/storage/img/background.png')
+        }
+    </style>
+</head>
+
+<body data-bs-theme="dark">
+    <header class="header overflow-hidden">
+        <nav class="navbar navbar-expand-md z-3 pt-3">
+    <div class="container">
+        <a class="navbar-brand" href="https://demo.azuriom.com">
+                            <img src="https://demo.azuriom.com/storage/img/logo.png" alt="Logo" width="50">
+                    </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <!-- Left Side Of Navbar -->
+            <ul class="navbar-nav mx-auto navbar-main-nav">
+                                                            <li class="nav-item">
+                            <a class="nav-link " href="https://demo.azuriom.com" >
+                                <i class="bi bi-house"></i> Home
+                            </a>
+                        </li>
+                                                                                <li class="nav-item">
+                            <a class="nav-link  active " href="https://demo.azuriom.com/page-1" >
+                                <i class="bi bi-file-earmark"></i> Page
+                            </a>
+                        </li>
+                                                                                <li class="nav-item">
+                            <a class="nav-link " href="https://demo.azuriom.com/forum" >
+                                <i class="bi bi-chat-dots"></i> Forum
+                            </a>
+                        </li>
+                                                                                <li class="nav-item">
+                            <a class="nav-link " href="https://demo.azuriom.com/vote" >
+                                <i class="bi bi-star"></i> Vote
+                            </a>
+                        </li>
+                                                                                <li class="nav-item">
+                            <a class="nav-link " href="https://demo.azuriom.com/shop" >
+                                <i class="bi bi-cart"></i> Shop
+                            </a>
+                        </li>
+                                                                                <li class="nav-item">
+                            <a class="nav-link " href="https://demo.azuriom.com/faq" >
+                                <i class="bi bi-info-circle"></i> FAQ
+                            </a>
+                        </li>
+                                                                                <li class="nav-item">
+                            <a class="nav-link " href="https://demo.azuriom.com/support/tickets" >
+                                <i class="bi bi-question-circle"></i> Support
+                            </a>
+                        </li>
+                                                                                <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown14" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-plus-lg"></i> More
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown14">
+                                                                    <a class="dropdown-item " href="https://demo.azuriom.com/wiki" >
+                                        <i class="bi bi-book"></i> Wiki
+                                    </a>
+                                                                    <a class="dropdown-item " href="https://azuriom.com/"  target="_blank" rel="noopener noreferrer" >
+                                        Azuriom
+                                    </a>
+                                                            </div>
+                        </li>
+                                                </ul>
+
+            <!-- Right Side Of Navbar -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Authentication Links -->
+                                    <li class="nav-item">
+                        <a class="nav-link" href="https://demo.azuriom.com/user/login">
+                            Login
+                        </a>
+                    </li>
+
+                                            <li class="nav-item">
+                            <a class="nav-link" href="https://demo.azuriom.com/user/register">
+                                Register
+                            </a>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+</nav>
+
+        <div class="d-flex justify-content-center pt-3 pb-5">
+            <div class="position-relative header-logo">
+                <img src="https://demo.azuriom.com/storage/img/logo.png" class="img-fluid d-block mx-auto logo" alt="Azuriom">
+            </div>
+        </div>
+
+        <div class="header-separator">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 175.2" class="svg-1" fill="#1d6fa6">
+        <path d="M0-1.7l64,8.5c64,8.5,192,25.4,320,28.2c128,2.7,256-8.4,384-5.7c128,2.8,256,19.8,384,18.4
+                    c128-1.5,256-21.1,384-28.2c128-7.2,256-1.3,320,1.4l64,2.8l10.1,149.8H-10.1L0-1.7z"/>
+        <path opacity="0.66" d="M0,7.7L64,12c64,4.2,192,12.7,320,12.7s256-8.5,384-7.1c128,1.5,256,12.6,384,11.3
+                    c128-1.3,256-15.6,384-21.2c128-5.6,256-2.9,320-1.4l64,1.4v52.7L0,58.5L0,7.7z"/>
+    </svg>
+
+    <img src="https://demo.azuriom.com/assets/themes/pirate/svg/boat.svg?v1.1.2" class="boat d-md-block d-none" alt="Boat">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 175.2" class="svg-2" fill="#1d5b90">
+        <path d="M0-1.7l64,8.5c64,8.5,192,25.4,320,28.2c128,2.7,256-8.4,384-5.7c128,2.8,256,19.8,384,18.4
+                    c128-1.5,256-21.1,384-28.2c128-7.2,256-1.3,320,1.4l64,2.8l10.1,149.8H-10.1L0-1.7z"/>
+        <path opacity="0.66" d="M0,7.7L64,12c64,4.2,192,12.7,320,12.7s256-8.5,384-7.1c128,1.5,256,12.6,384,11.3
+                    c128-1.3,256-15.6,384-21.2c128-5.6,256-2.9,320-1.4l64,1.4v52.7L0,58.5L0,7.7z"/>
+    </svg>
+</div>
+    </header>
+
+    <main class="content">
+        <div class="container">
+            <div id="status-message"></div>
+
+                <h1>Page 1</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dignissim sapien augue, molestie tempor nisl ullamcorper eget. Donec imperdiet tincidunt odio, varius eleifend erat malesuada id. Cras ultricies lectus id tincidunt fringilla. Aliquam feugiat condimentum lectus in gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. In finibus quam non erat ullamcorper scelerisque. Mauris ut egestas nulla. Etiam ut sapien ut velit congue luctus. In ligula mauris, vehicula in sem cursus, volutpat feugiat erat. Duis blandit tellus in tincidunt vulputate. Phasellus congue interdum sagittis.</p>
+<p>Sed eu auctor metus. Nulla hendrerit, ante ut suscipit sollicitudin, urna ante tincidunt ipsum, id egestas nunc sapien vel tellus. Praesent mollis facilisis erat feugiat facilisis. Maecenas dictum tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In at nulla vestibulum, sollicitudin eros a, efficitur erat. Aliquam et dui nec erat dictum placerat. Etiam ultrices arcu sit amet libero pretium, congue accumsan neque pretium. Donec feugiat luctus velit nec pulvinar. Cras justo massa, scelerisque quis ipsum nec, accumsan aliquet urna. Praesent vitae metus varius, aliquet ante eu, sollicitudin nisl. Nam pretium bibendum metus ut finibus.</p>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat augue sit amet risus consequat, eget scelerisque erat commodo. Integer rhoncus efficitur laoreet. Praesent fringilla elit nisi, eget vehicula augue rutrum nec. Cras lacinia, nunc et dapibus fermentum, mi nisi pellentesque est, in efficitur sapien dolor et mauris. In malesuada a odio mollis rutrum. Cras eros elit, tincidunt cursus justo eget, elementum viverra lorem. Donec sed lacus risus. Maecenas semper tincidunt nunc sed tempus. Aliquam consequat nisi ligula, sed convallis mauris suscipit at. Donec porta molestie odio, a pulvinar tellus dapibus sed. Phasellus mollis facilisis ex. Nunc pretium purus ac dui malesuada, vel maximus nunc mattis. Proin mi urna, ullamcorper eu blandit id, euismod at neque. Pellentesque bibendum euismod tristique. Praesent condimentum orci vitae felis pellentesque, ut faucibus leo vehicula.</p>
+        </div>
+    </div>
+        </div>
+
+        <div id="particles-js"></div>
+    </main>
+
+<footer>
+    <div class="bg-body py-5">
+    <div class="container">
+        <div class="row gy-3">
+            <div class="col-md-4 d-flex align-items-center">
+                <div class="text-center">
+                    <h4 class="text-uppercase font-weight-bold">
+                        About us
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat quam mi, sit amet tincidunt urna volutpat vitae. Aenean pellentesque, ligula sed semper egestas, tellus sapien venenatis velit, cursus rutrum sem sapien non massa.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-md-block d-none">
+                <img class="footer-logo d-block mx-auto" src="https://demo.azuriom.com/storage/img/logo.png" alt="Azuriom">
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <h4 class="text-uppercase font-weight-bold">
+                        Learn more
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat quam mi, sit amet tincidunt urna volutpat vitae. Aenean pellentesque, ligula sed semper egestas, tellus sapien venenatis velit, cursus rutrum sem sapien non massa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright py-3">
+    <div class="container">
+        <div class="row gy-3 mt-1">
+            <div class="col-md-3 d-md-flex justify-content-between text-uppercase">
+                                    <a class="me-2 d-inline-block" href="https://demo.azuriom.com/support/tickets">Support</a>
+                                    <a class="me-2 d-inline-block" href="https://demo.azuriom.com/faq">FAQ</a>
+                                    <a class="me-2 d-inline-block" href="https://demo.azuriom.com/shop">Shop</a>
+                            </div>
+            <div class="col-md-6 text-center">
+                <p class="mb-0">Copyright © 2020 Azuriom - All Rights Reserved.</p>
+                <small>Powered by <a href="https://azuriom.com" target="_blank" rel="noopener noreferrer">Azuriom</a>. Theme by JustZak & Sloyni.</small>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
+                <div class="list-inline">
+                                            <a href="https://azuriom.com/discord" class="list-inline-item" target="_blank" rel="noreferrer noopener" data-bs-toggle="tooltip" title="Discord">
+                            <i class="bi bi-discord fs-2"></i>
+                        </a>
+                                            <a href="https://github.com/Azuriom" class="list-inline-item" target="_blank" rel="noreferrer noopener" data-bs-toggle="tooltip" title="GitHub">
+                            <i class="bi bi-github fs-2"></i>
+                        </a>
+                                            <a href="https://twitter.com/Azuriom" class="list-inline-item" target="_blank" rel="noreferrer noopener" data-bs-toggle="tooltip" title="Twitter">
+                            <i class="bi bi-twitter fs-2"></i>
+                        </a>
+                                            <a href="https://www.youtube.com/channel/UCPS-Kh1ycTuL-4vQhx8j-7Q" class="list-inline-item" target="_blank" rel="noreferrer noopener" data-bs-toggle="tooltip" title="YouTube">
+                            <i class="bi bi-youtube fs-2"></i>
+                        </a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+<div class="azuriom-theme-selector">
+    <div class="dropleft">
+        <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Select theme">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                <path fill="currentColor" d="M167.02 309.34c-40.12 2.58-76.53 17.86-97.19 72.3-2.35 6.21-8 9.98-14.59 9.98-11.11 0-45.46-27.67-55.25-34.35C0 439.62 37.93 512 128 512c75.86 0 128-43.77 128-120.19 0-3.11-.65-6.08-.97-9.13l-88.01-73.34zM457.89 0c-15.16 0-29.37 6.71-40.21 16.45C213.27 199.05 192 203.34 192 257.09c0 13.7 3.25 26.76 8.73 38.7l63.82 53.18c7.21 1.8 14.64 3.03 22.39 3.03 62.11 0 98.11-45.47 211.16-256.46 7.38-14.35 13.9-29.85 13.9-45.99C512 20.64 486 0 457.89 0z"/>
+            </svg>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <h6 class="dropdown-header">Select theme</h6>
+
+            <button class="dropdown-item" type="button" data-azuriom-theme="default">Default</button>
+            
+                            <button class="dropdown-item" type="button" data-azuriom-theme="aurora">
+                    Aurora
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="blockworld">
+                    Blockworld
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="carbon">
+                    Carbon
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="darkmoon">
+                    DarkMoon
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="darkwave">
+                    DarkWave
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="deluxe">
+                    Deluxe
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="flauw">
+                    Flauw
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="guide">
+                    Guide
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="lime">
+                    Lime
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="modernpro">
+                    ModernPro
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="neptune">
+                    Neptune
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="pear">
+                    Pear
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="pirate">
+                    Pirate
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="prism">
+                    Prism
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="rainbow">
+                    Rainbow
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="revolution">
+                    Revolution
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="rounded">
+                    Rounded
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="saturne">
+                    Saturne
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="universe">
+                    Universe
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="update">
+                    Update
+                </button>
+                            <button class="dropdown-item" type="button" data-azuriom-theme="volcano">
+                    Volcano
+                </button>
+                    </div>
+    </div>
+</div>
+
+
+</body>
 </html>
