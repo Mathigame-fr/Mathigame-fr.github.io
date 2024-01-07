@@ -10,7 +10,7 @@ body {
 	background-size: cover;
 	font-family: Helvetica;
 	text-align: center;
-	text-color: white;
+	color: white;
 }  	
 tbody:nth-child(odd)  { 
 	background: rgba(76, 175, 80, 0.1)
