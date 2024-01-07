@@ -9,6 +9,7 @@ body {
 				url("../img/hytale.png") no-repeat center center fixed;
 	background-size: cover;
 	font-family: Helvetica;
+	color: white;
 }  
 .center {
 	margin-left: auto;
