@@ -15,6 +15,9 @@ h1 {
 	color : white;
 	text-align: center;
 }
+div.container {
+  text-align: center;
+}
 ul {
   display: inline-block;
   text-align: center;
