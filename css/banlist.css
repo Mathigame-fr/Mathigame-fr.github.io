@@ -9,16 +9,18 @@ body {
 				url("../img/hytale.png") no-repeat center center fixed;
 	background-size: cover;
 	font-family: Helvetica;
-	text-align: center
+	text-align: center;
+	text-color: white;
 }  	
 tbody:nth-child(odd)  { 
-	background-color : #CED4E5; 
+	background: rgba(76, 175, 80, 0.1)
 }
 tbody:nth-child(even) { 
-	background-color : #E8EBF5; 
+	background: rgba(76, 175, 80, 0.1)
 }
 th { 
-	ackground-color : #557CBA; padding:0.7em; 
+	background: rgba(76, 175, 80, 0.1)
+	padding:0.7em; 
 }
 td {
 	padding:0.5em;
