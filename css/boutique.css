@@ -9,8 +9,13 @@ body {
 				url("../img/hytale.png") no-repeat center center fixed;
 	background-size: cover;
 	font-family: Helvetica;
+	color: white;
 }  
 h1 {
 	color : white;
 	text-align: center;
+}
+ul {
+  display: inline-block;
+  text-align: center;
 }
