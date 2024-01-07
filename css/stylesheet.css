@@ -4,9 +4,7 @@ html, body {
 }
 
 body {
-	/*Want to change background image?*/
-	/*Upload a new one to the img folder.*/
-	/*Make sure you name it 'hytale.jpg'*/
+
 	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
 				url("../img/hytale.png") no-repeat center center fixed;
 	background-size: cover;
@@ -103,7 +101,7 @@ p {
 	.item:not(:first-child) {
 		margin-left: 90px;
 }
-/** code by webdevtrick ( https://webdevtrick.com ) **/
+
 .main {
 	max-height: 550px;;
 	background-color: #292c2f;
